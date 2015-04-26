@@ -153,7 +153,8 @@ section#main-slider{padding-bottom: 0px !important;}
 .section-header {
     margin-bottom: 50px;
 }
-#history,#services,#people,#portfolio,#vision{overflow-x: hidden;}
+#history,#people,#portfolio,#vision{overflow-x: hidden;}
+#services{overflow: hidden;}
 .section-header .section-title {
     font-size: 44px;
     color: #272727;
