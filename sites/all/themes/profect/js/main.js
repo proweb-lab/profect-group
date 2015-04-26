@@ -76,7 +76,7 @@
       });
       
       
-      $('.section-block a').on('click', function () {
+      $('.buttom-back').on('click', function () {
         $('.section-subpage-content').css('margin-left','1400px');
         $('.main-work-boxes').css('left','0px');
       });
