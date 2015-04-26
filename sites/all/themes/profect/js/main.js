@@ -77,7 +77,7 @@
       });
       
       
-      $('.buttom-back').on('click', function () {
+      $('.button-back').on('click', function () {
         $('.section-subpage-content').css('left','1400px');
         $('.main-work-boxes .view-content').css('left','0px');
       });
