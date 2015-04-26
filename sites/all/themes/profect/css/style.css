@@ -358,6 +358,14 @@ hr.small {
 .service-box:hover h3, 
 .sub-service-box:hover h3 {
   color: #ffffff;
+  text-decoration: none;margin-top: 25px;
+  position: absolute;
+  color: #535353;
+  width: 960px;
+  line-height: 22px;
+  text-align: left;
+  font-size: 14px;
+  height: 600px;
 }
 
 
