@@ -382,6 +382,10 @@ hr.small {
   width: 960px;
   clear: both;
 }
+
+.service-subpage-content{
+    display: none;
+}
 /*projects*/
 .portfolio-item {
     position: relative;
