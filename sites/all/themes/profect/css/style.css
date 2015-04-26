@@ -330,7 +330,7 @@ hr.small {
 .main-work-boxes .view-content{position: absolute;top: 50px; left: 0;}
 .service-box {
   cursor: pointer;
-
+  position: relative;
   float: left;
 /*  width: 258px;
   height: 210px;*/
@@ -338,7 +338,8 @@ hr.small {
   //clear: none;
   font-size: 14px;
   //padding: 40px 30px 20px 30px;
-
+  text-align: center;
+  line-height: 19px;
 }
 .hover-arrow {
   opacity: 0;
