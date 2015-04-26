@@ -327,7 +327,7 @@ hr.small {
   color: transparent;
  
 }*/
-.main-work-boxes{position: absolute;top: 50px; left: 0;}
+.main-work-boxes .view-content{position: absolute;top: 50px; left: 0;}
 .service-box {
   cursor: pointer;
   position: relative;
