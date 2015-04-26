@@ -385,7 +385,7 @@ hr.small {
   font-size: 14px;
 }
 .bottom-back{
-    background:no-repeat url("../images/buttom_goback.png") #008ece;
+    background:no-repeat url("../images/buttom_goback.png");
 }
 /*projects*/
 .portfolio-item {
