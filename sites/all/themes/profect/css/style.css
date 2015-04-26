@@ -369,7 +369,8 @@ hr.small {
   clear: both;
 }
 .section-subpage-content{
-    display: none;
+    //display: none;
+    margin-left: 1400px;
 }
 .main-work-sub-page{margin-top: 25px;
   width: 960px;
