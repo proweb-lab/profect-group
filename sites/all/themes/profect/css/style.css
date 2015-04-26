@@ -379,7 +379,8 @@ hr.small {
 }
 .main-work-sub-page{margin-top: 25px;
   width: 960px;
-
+  line-height: 22px;
+  font-size: 14px;
 }
 /*projects*/
 .portfolio-item {
