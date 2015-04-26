@@ -70,7 +70,7 @@
        //   $('.section-subpage-content').css('display','block');
        //$('.section-subpage-content').css('margin-left','0px');
         $(this).addClass('active');
-        $('.main-work-boxes').css('left','1400px');
+        $('.main-work-boxes .view-content').css('left','1400px');
         id = $(this).attr('id');
         $('#' + id + '-content').css('left','0px');
         return false;
@@ -79,7 +79,7 @@
       
       $('.buttom-back').on('click', function () {
         $('.section-subpage-content').css('left','1400px');
-        $('.main-work-boxes').css('left','0px');
+        $('.main-work-boxes .view-content').css('left','0px');
       });
  }
   };
