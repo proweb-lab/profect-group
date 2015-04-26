@@ -359,32 +359,20 @@ hr.small {
 .sub-service-box:hover h3 {
   color: #ffffff;
 }
-.service-subpage, 
-.sub-service-subpage {
-  margin-top: 25px;
-  position: absolute;
-  color: #535353;
-  width: 960px;
-  line-height: 22px;
-  text-align: left;
-  font-size: 14px;
-  height: 600px;
-}
-.service-subpage1, 
-.service-subpage2, 
-.service-subpage3,
-.service-subpage4{
-  position: absolute;
-  left: 0px;
-  width: 960px;
-}
+
+
 .service-subpage .widebar, .sub-service-subpage .widebar {
   width: 960px;
   clear: both;
 }
-
 .section-subpage-content{
     display: none;
+}
+.main-work-sub-page{margin-top: 25px;
+  color: #535353;
+  width: 960px;
+  line-height: 22px;
+  font-size: 14px;
 }
 /*projects*/
 .portfolio-item {
