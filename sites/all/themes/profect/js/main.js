@@ -74,6 +74,12 @@
         $('#' + id + '-content').css('margin-left','0px');
         return false;
       });
+      
+      
+      $('.section-block a').on('click', function () {
+        $('.section-subpage-content').css('margin-left','0px');
+        $('.main-work-boxes').css('left','0px');
+      });
  }
   };
 
