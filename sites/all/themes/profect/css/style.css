@@ -332,12 +332,12 @@ hr.small {
   cursor: pointer;
   position: relative;
   float: left;
-  width: 258px;
-  height: 210px;
+/*  width: 258px;
+  height: 210px;*/
   color: #535353;
-  clear: none;
+  //clear: none;
   font-size: 14px;
-  padding: 40px 30px 20px 30px;
+  //padding: 40px 30px 20px 30px;
   text-align: center;
   line-height: 19px;
 }
@@ -379,8 +379,7 @@ hr.small {
 }
 .main-work-sub-page{margin-top: 25px;
   width: 960px;
-  line-height: 22px;
-  font-size: 14px;
+
 }
 /*projects*/
 .portfolio-item {
