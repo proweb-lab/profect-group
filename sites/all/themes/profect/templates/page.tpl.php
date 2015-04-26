@@ -97,10 +97,7 @@
                 
                 <?php print views_embed_view('section', 'descripton_block'); ?>
             </div>
-            <div class="row main-work-boxes">
-                
-                <?php print views_embed_view('section', 'front_block'); ?>
-            </div>
+           
         </div>
     </div>
 
