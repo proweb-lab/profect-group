@@ -384,7 +384,7 @@ hr.small {
   line-height: 22px;
   font-size: 14px;
 }
-.button-back{
+div.button-back{
     background:no-repeat url("../images/button_goback.png");
     height: 60px;
     width: 50px;
