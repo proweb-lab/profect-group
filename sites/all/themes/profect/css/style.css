@@ -332,10 +332,10 @@ hr.small {
   cursor: pointer;
   position: relative;
   float: left;
-/*  width: 258px;
-  height: 210px;*/
+ width: 258px;
+  height: 210px;
   color: #535353;
-  //clear: none;
+  clear: none;
   font-size: 14px;
   padding: 40px 30px 20px 30px;
   text-align: center;
