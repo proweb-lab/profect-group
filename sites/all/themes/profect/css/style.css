@@ -386,6 +386,8 @@ hr.small {
 }
 .button-back{
     background:no-repeat url("../images/button_goback.png");
+    height: 60px;
+    width: 50px;
 }
 /*projects*/
 .portfolio-item {
