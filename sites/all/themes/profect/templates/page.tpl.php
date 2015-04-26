@@ -32,57 +32,56 @@
         <div class="section-header">
             <h2 class="section-title text-center wow fadeInDown animated"><?php echo t('About Us') ?></h2>
             <div class="container">
-        <div class="row text-center">
-            <div class="col-lg-10 col-lg-offset-1">
-                <h3 class="center column-title">
-                    <?php echo t('Who We Are') ?></h3></div>
-        </div>
-        <div class="row">
-                <?php //print views_embed_view('about_us', 'story_block'); ?>
-                <?php 
-              $about = node_view(node_load(73)); 
-              print(drupal_render($about));
-          ?>
+                <div class="row text-center">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <h3 class="center column-title">
+                            <?php echo t('Who We Are') ?></h3></div>
+                </div>
+                <div class="row">
+                    <?php //print views_embed_view('about_us', 'story_block'); ?>
+                    <?php
+                    $about = node_view(node_load(73));
+                    print(drupal_render($about));
+                    ?>
+                </div>
             </div>
         </div>
-    </div>
 </section>
 <section id="values"class="bg-values">
-     <div class="container">
+    <div class="container">
         <div class="row text-center">
             <div class="col-lg-10 col-lg-offset-1">
                 <h3 class="center column-title">
                     <?php echo t('Our Values') ?></h3></div>
         </div>
         <div class="row">
-                     <?php 
-              $about = node_view(node_load(74));
-              print(drupal_render($about));
-          ?>
+            <?php
+            $about = node_view(node_load(74));
+            print(drupal_render($about));
+            ?>
         </div>
-     </div>
+    </div>
 </section>
 <section id="vision"class="bg-vision">
-     <div class="container">
+    <div class="container">
         <div class="row text-center">
             <div class="col-lg-10 col-lg-offset-1">
                 <h3 class="center column-title">
                     <?php echo t('Strategic Vision') ?></h3></div>
         </div>
         <div class="row">
-                   <?php 
-              $about = node_view(node_load(75));
-              print(drupal_render($about));
-          ?>
+            <?php
+            $about = node_view(node_load(75));
+            print(drupal_render($about));
+            ?>
         </div>
-     </div>
+    </div>
 </section>
 <section id="history"class="bg-history">
-        <div class="row text-center">
-            <div class="col-lg-10 col-lg-offset-1">
-                <h3 class="center column-title"><?php echo t('Our History') ?></h3></div>
-        </div>
-    
+    <div class="row text-center">
+        <div class="col-lg-10 col-lg-offset-1">
+            <h3 class="center column-title"><?php echo t('Our History') ?></h3></div>
+    </div>
     <?php print views_embed_view('history', 'history_block'); ?>
 </section>
 <section id="services" class="services bg-services">
@@ -90,33 +89,28 @@
         <div class="row text-center">
             <div class="col-lg-10 col-lg-offset-1">
                 <h3 class="center column-title">
-               <?php echo t('Main Works');?></h3>
-          
+                    <?php echo t('Main Works'); ?></h3>
+
             </div>
             <div class="main-work clearfix">
-            <div class="row main-work-boxes">
-                <?php print views_embed_view('section', 'front_block'); ?>
-               
-            </div>
-            
-            <div class="row main-work-sub-page">
-                 <?php print views_embed_view('section', 'descripton_block'); ?>
-                
+                <div class="row main-work-boxes">
+                    <?php print views_embed_view('section', 'front_block'); ?>
+                </div>
+                <div class="row main-work-sub-page">
+                    <?php print views_embed_view('section', 'descripton_block'); ?> 
+                </div>
             </div>
         </div>
-            </div>
-            
-    </div>
-
+     </div>
 </section>
 <!--<section id="portfolio">
     <div class="container">
         <div class="row text-center">
             <div class="col-lg-10 col-lg-offset-1">
-                <h3 class="center column-title" ><?php //echo t('Our Projects');?></h3>
+                <h3 class="center column-title" ><?php //echo t('Our Projects'); ?></h3>
             </div>
             <div class="row">
-                <?php //print views_embed_view('about_us', 'project_block'); ?>
+<?php //print views_embed_view('about_us', 'project_block'); ?>
             </div>
         </div>
     </div>
@@ -135,7 +129,7 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-lg-10 col-lg-offset-1">
-                <h3 class="column-title center"><?php echo t('Our Team');?></h3>
+                <h3 class="column-title center"><?php echo t('Our Team'); ?></h3>
             </div>
         </div>
     </div>
@@ -150,11 +144,11 @@
         <div class="section-header">
             <h2 class="section-title text-center wow fadeInDown animated" ><?php echo t('Our Partners') ?></h2>
         </div>
-        <?php// print views_embed_view('partner', 'featured_block'); ?>
+<?php // print views_embed_view('partner', 'featured_block'); ?>
     </div>
 
     <div class="clients_showcase-container container">
-        <?php //print views_embed_view('partner', 'good_partner_block'); ?>
+<?php //print views_embed_view('partner', 'good_partner_block'); ?>
     </div>
 </section>-->
 <section id="our-branches">
