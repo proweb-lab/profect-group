@@ -371,7 +371,7 @@ hr.small {
   clear: both;
 }
 .section-subpage-content{
-    //display: none;
+    display: none;
    position: absolute;
     left: 1400px;
     top: 50px;
