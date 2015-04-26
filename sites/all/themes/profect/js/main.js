@@ -67,7 +67,7 @@
         if ($('.section-block a').hasClass('active')) {
           $('.section-block a').removeClass('active');
         }
-        $('.section-subpage-content').css('left','1400px');
+        $('.section-subpage-content').show();
         $(this).addClass('active');
         $('.main-work-boxes').css('left','1400px');
         id = $(this).attr('id');
