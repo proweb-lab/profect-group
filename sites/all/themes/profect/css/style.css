@@ -358,7 +358,8 @@ hr.small {
 .service-box:hover h3, 
 .sub-service-box:hover h3 {
   color: #ffffff;
-  text-decoration: none;margin-top: 25px;
+  text-decoration: none;
+  margin-top: 25px;
   position: absolute;
   color: #535353;
   width: 960px;
@@ -377,7 +378,6 @@ hr.small {
     display: none;
 }
 .main-work-sub-page{margin-top: 25px;
-  color: #535353;
   width: 960px;
   line-height: 22px;
   font-size: 14px;
