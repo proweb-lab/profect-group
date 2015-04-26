@@ -1,5 +1,6 @@
-<div class="service-subpage<?php print $fields['field_weight']->content;?>  service-subpage-content">
-    <div class="widebar">
+<div class=" service-subpage-content" id="<?php echo $fields['field_weight']->raw . '-' . $fields['nid']->raw; ?>-content">
+
+<div class="widebar">
 <h3><?php print $fields['title']->content; ?></h3>
 </div>
 <div class="left">
