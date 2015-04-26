@@ -1,4 +1,4 @@
-<div class="section-subpage-content" id="<?php echo $fields['title']->raw . '-' . $fields['field_weight']->raw; ?>-content">
+<div class="section-subpage-content" id="<?php echo $fields['title']->raw . '-' . $fields['field_weight']->content; ?>-content">
 
 <div class="widebar">
 <h3><?php print $fields['title']->content; ?></h3>
