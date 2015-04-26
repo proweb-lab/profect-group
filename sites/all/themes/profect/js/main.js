@@ -69,7 +69,7 @@
         }
         $('.section-subpage-content').css('margin-left','1400px');
         $(this).addClass('active');
-        $('.main-work-boxes').css('left','0px');
+        $('.main-work-boxes').css('left','1400px');
         id = $(this).attr('id');
         $('#' + id + '-content').css('left','0px');
         return false;
