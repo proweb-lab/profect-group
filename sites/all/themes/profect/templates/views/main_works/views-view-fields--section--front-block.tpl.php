@@ -1,4 +1,4 @@
-<a href="#" id="<?php echo $fields['title']->content . '-' . $fields['field_weight']->content; ?>" class="service-box offices-tab">
+<a href="#" id="<?php echo $fields['title']->content . '-' . $fields['field_weight']->content; ?>" class="service-box">
  
     <div class="plus strategyicon"><?php print $fields['field_logo']->content; ?>
     </div>
