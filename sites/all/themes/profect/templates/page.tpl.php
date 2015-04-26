@@ -93,7 +93,7 @@
                <?php echo t('Main Works');?></h3>
           
             </div>
-            <div class="main-work">
+            <div class="main-work clearfix">
             <div class="row main-work-boxes">
                 <?php print views_embed_view('section', 'front_block'); ?>
                
