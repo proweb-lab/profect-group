@@ -328,6 +328,7 @@ hr.small {
   color: transparent;
  
 }*/
+.main-work-boxes{height: 400px;}
 .main-work-boxes .view-content{position: absolute;top: 50px; left: 0;}
 .service-box {
   cursor: pointer;
