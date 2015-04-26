@@ -1,4 +1,4 @@
-<a href="#" id="<?php echo $fields['title']->raw . '-' . $fields['field_weight']->raw; ?>" class="service-box offices-tab">
+<a href="#" id="<?php echo $fields['title']->raw . '-' . $fields['field_weight']->content; ?>" class="service-box offices-tab">
   
 
 
