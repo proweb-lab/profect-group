@@ -67,6 +67,7 @@
         if ($('.section-block a').hasClass('active')) {
           $('.section-block a').removeClass('active');
         }
+          $('.section-subpage-content').css('display','block');
         $('.section-subpage-content').css('margin-left','1400px');
         $(this).addClass('active');
         $('.main-work-boxes').css('left','1400px');
