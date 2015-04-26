@@ -93,15 +93,18 @@
                <?php echo t('Main Works');?></h3>
           
             </div>
+            <div class="main-work">
             <div class="row main-work-boxes">
                 <?php print views_embed_view('section', 'front_block'); ?>
                
+            </div>
             </div>
             <div class="row main-work-sub-page">
                  <?php print views_embed_view('section', 'descripton_block'); ?>
                 
             </div>
         </div>
+            
     </div>
 
 </section>
