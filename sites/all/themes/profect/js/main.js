@@ -53,11 +53,11 @@
       });
       
       
-        $('.service-box a').on('click', function () {
-        if ($('.service-box a').hasClass('active')) {
-          $('.service-box a').removeClass('active');
+        $('.section-block a').on('click', function () {
+        if ($('.section-block a').hasClass('active')) {
+          $('.section-block a').removeClass('active');
         }
-        $('.service-subpage-content').hide();
+        $('.section-subpage-content').hide();
         $(this).addClass('active');
         id = $(this).attr('id');
         $('#' + id + '-content').show();
