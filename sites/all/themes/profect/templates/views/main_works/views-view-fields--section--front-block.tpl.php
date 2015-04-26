@@ -1,7 +1,5 @@
 <a href="#" id="<?php echo $fields['title']->content . '-' . $fields['field_weight']->content; ?>" class="service-box offices-tab">
-  
-
-
+ 
     <div class="plus strategyicon"><?php print $fields['field_logo']->content; ?>
     </div>
     <div class="hover-arrow"><img border="0" alt="arrow" src="sites/all/themes/profect/images/arrow.png"></div>
