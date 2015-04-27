@@ -27,7 +27,8 @@
 <div id="cta" class="wow fadeIn animated">
     <?php print views_embed_view('front_text', 'block'); ?>
 </div>
-<section id="about-us" class="bg-about">
+<div class="bg-aboutus">
+<section id="about-us" class="bg-abot">
     <div class="container">
         <div class="section-header">
             <h2 class="section-title text-center wow fadeInDown animated"><?php echo t('About Us') ?></h2>
@@ -77,6 +78,7 @@
         </div>
     </div>
 </section>
+    </div>
 <section id="history"class="bg-history">
     <div class="row text-center">
         <div class="col-lg-10 col-lg-offset-1">
