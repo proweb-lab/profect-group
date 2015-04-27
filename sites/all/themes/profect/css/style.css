@@ -347,9 +347,10 @@ hr.small {
 .hover-arrow {
   opacity: 0;
   position: absolute;
-  left: 149px;
-  top: 49px;
+  left: 120px;
+  top: 15px;
 }
+.service-box:hover .hover-arrow{opacity: 1;}
 .service-box:hover {
   background-color: #005192;
   color: #ffffff;
@@ -358,6 +359,7 @@ hr.small {
   -o-transition: padding .15s ease-out;
   transition: padding .15s ease-out;
 }
+
 .service-box:hover .plus,
 .sub-service-box:hover .plus {
   display: none;
