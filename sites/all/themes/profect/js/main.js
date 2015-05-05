@@ -70,7 +70,7 @@
        //   $('.section-subpage-content').css('display','block');
        //$('.section-subpage-content').css('margin-left','0px');
         $(this).addClass('active');
-        $('.main-work-boxes .view-content').animate({left: 1400}, {queue: false, duration:700, easing:"easeInOutQuart"});
+        $('.main-work-boxes .view-content').animate({left: "1400px"}, 500);
         id = $(this).attr('id');
         $('#' + id + '-content').css('left','0px');
         return false;
@@ -78,8 +78,8 @@
       
       
       $('.button-back').on('click', function () {
-        $('.section-subpage-content').animate({left: 1400}, {queue: false, duration:700, easing:"easeInOutQuart"});
-        $('.main-work-boxes .view-content').animate({left: 0}, {queue: false, duration:700, easing:"easeInOutQuart"});
+        $('.section-subpage-content').animate({left: "1400px"}, 500);
+        $('.main-work-boxes .view-content').animate({left: "0px"}, 500);
       });
  }
   };
