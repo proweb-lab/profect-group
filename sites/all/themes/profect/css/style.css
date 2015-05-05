@@ -210,8 +210,8 @@ section#main-slider{padding-bottom: 0px !important;}
 }
 /*about */
 
-.bg-aboutus{background:no-repeat url("../images/aboutus-bg.png") ;
-background-size: 100%;}
+/*.bg-aboutus{background:no-repeat url("../images/aboutus-bg.png") ;
+background-size: 100%;}*/
 /*.bg-vision{background:no-repeat url("../images/vision.png") 50% 50%;}
 .bg-values{background:no-repeat url("../images/values.png") 50% 50%;}*/
 #about-us .about-image ul li{list-style: none;}
