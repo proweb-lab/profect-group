@@ -72,14 +72,15 @@
         $(this).addClass('active');
         $('.main-work-boxes .view-content').animate({left: "1400px"}, 500);
         id = $(this).attr('id');
-        $('#' + id + '-content').css('left','0px');
+        $('#' + id + '-content').animate({left: "0px"}, 500);
         return false;
       });
       
       
       $('.button-back').on('click', function () {
-        $('.section-subpage-content').animate({left: "1400px"}, 500);
         $('.main-work-boxes .view-content').animate({left: "0px"}, 500);
+        $('.section-subpage-content').animate({left: "1400px"}, 500);
+        
       });
  }
   };
