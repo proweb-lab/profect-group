@@ -79,7 +79,7 @@
       
       $('.button-back').on('click', function () {
         $('.main-work-boxes .view-content').animate({left: "0px"}, 500);
-        $('.section-subpage-content').animate({left: "-1400px"}, 500);
+        $('.section-subpage-content').animate({left: "1400px"}, 500);
         
       });
  }
