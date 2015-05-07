@@ -352,7 +352,7 @@ hr.small {
 }
 .service-box:hover .hover-arrow{opacity: 1;}
 .service-box:hover {
-  background-color: #005192;
+  background-color: #008ece;
   color: #ffffff;
   -webkit-transition: padding .15s ease-out;
   -moz-transition: padding .15s ease-out;
